@@ -1,0 +1,63 @@
+
+.container {
+    width: 900px;
+    margin: 30px 0px;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.album {
+    width: 900px;
+    overflow: hidden;
+}
+
+.imgtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 28px;
+}
+
+.imgbox {
+    height: 70vh;
+    width: 10000vw;
+    display: flex;    
+}
+
+.imgbox img {
+    display: block;
+    width: 900px;
+    object-fit: contain;
+} 
+
+.container button,
+.container button:active,
+.container button:focus {
+    width: 50px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: teal;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.container button:hover {
+    background-color: turquoise;
+}
+
+.container button:disabled {
+    background-color: gray;
+    cursor: default;
+}
+
+.prev {
+    float: left;
+}
+
+.next {
+    float: right;
+}

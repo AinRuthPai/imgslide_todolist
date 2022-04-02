@@ -1,0 +1,10 @@
+@import "reset.css";
+@import "todo.css";
+@import "slide.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+}
